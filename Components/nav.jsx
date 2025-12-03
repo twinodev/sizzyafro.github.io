@@ -7,7 +7,7 @@ function Nav(){
     return(
         <nav className=" flex flex-between p-3 ">
             <Link href="/" className="flex gap-3 flex-center">
-                <Image src='/icons/logo.png' alt="logo" width={30} height={30}/>
+                <Image src='/Public/icons/logo.png' alt="logo" width={30} height={30}/>
                 <p>Sizzy Afro</p>
             </Link>
             <div className="ml-auto"  >    
