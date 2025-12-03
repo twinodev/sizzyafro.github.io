@@ -9,12 +9,14 @@ export const metadata = {
     icons: {
         icon: '/favicon.ico'
     }
+    
 }
 
 const RootLayout = ({children}) => {
     return(
 
         <html lang='en'>
+            <meta name="google-adsense-account" content="ca-pub-5861878697571557">
             <body>
                 <Nav />
                 <main className='app'>
