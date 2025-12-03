@@ -1,4 +1,7 @@
-import Team from "@Components/team";
+import Profile from "@Components/profile";
+import Service from "@Components/services";
+import Event from "@Components/events";
+import Sponsors from "@Components/sponsors";
 export const metadata = {
 title: {
         absolute: "Sizzy Afro Dances"
@@ -7,20 +10,18 @@ title: {
 
 const Index = () => {
     return (
-        <section className = "w-full  md:flex flex-col m-5 flex-center">
-            <h1 className="text-orange-500 text-center font-bold text-[min(7vw,70px)] ">
-                Sizzy Afro Dances</h1>
-            <h3 className="text-center text-[min(4vw,40px)] text-blue-400">
-                Embracing the Culture and Rythm</h3>
-            <p className="text-center text-[min(3vw,30px)]">
-                Your One Dance teacher, Choreographer and Dance class Host
-            </p>
-            <h1 className="text-center font-bold text-[min(4vw,40px)] text-blue-400">Our Team</h1>
-              <div className="md:flex block justify-center">
-                <Team/>
-                <Team/>
-                <Team/>
+        <section className = "w-full  md:flex flex-col flex">
+            <Profile/>
+            <Sponsors/>
+            <Service/>
+            <h1 className=" m-2 font-bold text-center text-xl mt-5 mb-2 bg-black text-white">Events</h1>
+            <div className="justify-center p-2 text-center bg-linear-to-r from-orange-200 to-yellow-400 m-2 md:flex"> 
+               <Event/>
+               <Event/>
+               <Event/>
+               <Event/>
             </div>
+            
         </section>
     )
 }
