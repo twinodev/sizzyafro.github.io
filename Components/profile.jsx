@@ -1,4 +1,4 @@
-import Image from "@node_modules/next/image"
+import Image from "next/image"
 import Social from "./social"
 export default function Profile(){
     return(

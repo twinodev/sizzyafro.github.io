@@ -1,5 +1,5 @@
-import Image from "@node_modules/next/image"
-import Link from "@node_modules/next/link"
+import Image from "next/image"
+import Link from "next/link"
 export default function Sponsor(props){
     return(
         <Link  className="" href="/">
