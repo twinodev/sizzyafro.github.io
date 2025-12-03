@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-
+git 
 function Nav(){
     return(
         <nav className=" flex flex-between p-5 bg-linear-to-r from-orange-500 to-blue-500 rounded-[15px] m-2">
