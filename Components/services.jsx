@@ -10,7 +10,7 @@ export default function Service(){
                     DANCE CLASSES</h2>
                 <p>I have built hundreds of Students From Ground to Expert Battle cuts.</p>
                 <p>I just trust the process with Both physical and Online classes</p>
-                <Link href="/">
+                <Link href="/dance-classes">
                     <button className="bg-amber-500 rounded-[10px] pl-3 pr-3 font-bold text-white hover:cursor-pointer hover:animate-pulse hover:bg-amber-600">
                         ENROLL</button>
                 </Link>

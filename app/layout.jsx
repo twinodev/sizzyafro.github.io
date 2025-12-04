@@ -1,7 +1,7 @@
 import '@styles/globals.css';
 import Nav from '@Components/nav'
 import Footer from '@Components/footer';
-import Sponsors from '@Components/sponsors';
+
 
 export const metadata = {
     title: "Sizzy Afro Dances",
@@ -27,7 +27,6 @@ const RootLayout = ({children}) => {
                     {children}
                 </main>
                 <Footer />
-                <Sponsors />
             </body>
 
         </html>

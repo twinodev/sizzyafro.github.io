@@ -1,4 +1,4 @@
-
+import Sponsors from "./sponsors"
 import Social from "./social"
 export default function Footer(){
     return(
@@ -12,6 +12,7 @@ export default function Footer(){
                 <Social url="https://tiktok.com/@sizzyafro" source="/icons/fb.png" name="Facebook"/>
             </div>
             <p className="text-black">&copy; sizzy Afro X AfroDev 2026</p>
+            <Sponsors/>
         </footer>
     )
 }

@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 :root{
-  background-image: url(/public/images/bg.jpg);
   background-position:center;
   background-size:cover;
 }
